@@ -1,13 +1,14 @@
 " Vim compiler file for Python
 " Compiler:     Style checking tool for Python
 " Maintainer:   Oleksandr Tymoshenko <gonzo@univ.kiev.ua>
-" Last Change:  2010 april 29
-" Version:      0.6 
+" Last Change:  2011 August 21
+" Version:      0.7
 " Contributors:
 "     Artur Wroblewski
 "     Menno
 "     Jose Blanca
 "     Bogdan Frankovskyi
+"     Oren Held
 "
 " Installation:
 "   Drop pylint.vim in ~/.vim/compiler directory. Ensure that your PATH
@@ -121,7 +122,8 @@ CompilerSet makeprg=(echo\ '[%]';pylint\ --rcfile\ pylint.rc\ -i\ y\ %\\\|grep\ 
 "CompilerSet efm=%+P[%f],%t:\ %#%l:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
 "modified by Jose Blanca
 "version for the sorted and filtered pylint
-CompilerSet efm=%-GI%n:\ %#%l:%m,%*\\d\ %t\ %n:\ %#%l:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
+"modified by Oren Held - support pylint v0.24.0
+CompilerSet efm=%+P[%f],%*\\d\ %t\ %n:%l\\,%c:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
 
 ""sings
 "signs definition
