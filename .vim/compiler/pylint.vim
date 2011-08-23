@@ -123,7 +123,7 @@ CompilerSet makeprg=(echo\ '[%]';pylint\ --rcfile\ pylint.rc\ -i\ y\ %\\\|grep\ 
 "modified by Jose Blanca
 "version for the sorted and filtered pylint
 "modified by Oren Held - support pylint v0.24.0
-CompilerSet efm=%+P[%f],%*\\d\ %t\ %n:%l\\,%c:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
+CompilerSet efm=%+P[%f],%*\\d\ %t\ %n:\ %#%l\\,%c:%m,%Z,%+IYour\ code%m,%Z,%-G%.%#
 
 ""sings
 "signs definition
