@@ -1,0 +1,24 @@
+USING
+=====
+0. Get latest version from https://github.com/orenhe/pylint.vim
+1. Copy pylint.vim to ~/.vim/compilers.
+2. Make sure you have pylint install (easy_install pylint / apt-get install pylint)
+3. Make sure 'pylint <filename>' command does what you expect
+ - Uses the right Python version
+ - Uses the right configuration (~/.pylintrc)
+
+FORK / HISTORY
+==============
+This was forked by Oren Held (2011), from the version of:
+http://code.google.com/p/vim-python-ide/
+
+which is probably based on
+http://www.vim.org/scripts/script.php?script_id=891
+
+and possibly older predecessors.
+
+All credits should be inside pylint.vim file.
+
+FEEDBACK
+========
+Post bugs, ideas and pull requests to https://github.com/orenhe/pylint.vim
