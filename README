@@ -2,7 +2,7 @@ USING
 =====
 0. Get latest version from https://github.com/orenhe/pylint.vim
 1. Copy pylint.vim to ~/.vim/compilers.
-2. Make sure you have pylint install (easy_install pylint / apt-get install pylint)
+2. Make sure you have pylint installed (easy_install pylint / apt-get install pylint)
 3. Make sure 'pylint <filename>' command does what you expect
  - Uses the right Python version
  - Uses the right configuration (~/.pylintrc)
