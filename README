@@ -1,11 +1,12 @@
 USING
 =====
 0. Get latest version from https://github.com/orenhe/pylint.vim
-1. Copy pylint.vim to ~/.vim/compilers.
+1. Copy pylint.vim to ~/.vim/compiler.
 2. Make sure you have pylint installed (easy_install pylint / apt-get install pylint)
 3. Make sure 'pylint <filename>' command does what you expect
  - Uses the right Python version
  - Uses the right configuration (~/.pylintrc)
+4. Add the line "autocmd FileType python compiler pylint" to ~/.vimrc.
 
 FORK / HISTORY
 ==============
