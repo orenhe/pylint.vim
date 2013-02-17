@@ -177,6 +177,8 @@ function! Pylint(writing)
     if g:pylint_inline_highlight
         call PylintHighlight() 
     endif
+
+    redraw! " Needed only when calling this function manually, not needed when called through a write event. weird.
 endfunction
 endif
 
