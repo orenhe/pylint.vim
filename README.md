@@ -10,7 +10,7 @@ Using Pathogen https://github.com/tpope/vim-pathogen:
 Manually:
 
     cd ~/.vim/compiler
-    wget http://raw.github.com/orenhe/pylint.vim/master/pylint.vim
+    wget http://raw.github.com/orenhe/pylint.vim/master/compiler/pylint.vim
 
 2. Setup ~/.vimrc
 -----------------
